@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>中智信元</title>
+	<link rel="stylesheet" href="css/index.css">
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		ul,li,ol{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		.header{
+			height: 173px;
+			background-color: #eeeeef;
+		}
+		.a{
+			padding-top: 30px;
+			text-align: center;
+			height: 95px;
+		}
+		.a1{
+			width: 673px;
+			height: 45px;
+			background-color: #fff;
+			margin: 0 auto;
+			border-radius: 23px;
+		}
+		.a1 li{
+			float: left;
+			height: 45px;
+			padding: 0 30px;
+			line-height: 45px;
+			background :url(b.png) no-repeat right center;
+			font-size: 14px;
+		}
+		.a1 li a{
+			display: block;
+			height: 42px;
+			border-bottom: 3px solid #1e50ae;
+		}
+		.banner{
+			width: 1560px;
+			height: 405px;
+			background :url(c.png) no-repeat center center;
+		}
+		.serve{
+			width: 1200px;
+			height: 811px;
+			margin: 0 auto;
+			padding-bottom: 62px;
+			background-color: #ffffff;
+		}
+		.fu{
+			width: 1200px;
+			height: 194px;
+			margin: 0px;
+		}
+		.b1{
+			padding-top: 58px;
+			font-size: 34px;
+			font-style: 微软雅黑;
+			text-align: center;
+		}
+		.b2{
+			font-style: Times New Roman;
+			font-size: 31.45px;
+			padding-top: 15px;
+			text-align: center;
+		}
+		.yuan1{
+			width: 300px;
+			height: 368px;
+			float: left;
+		}
+		.c1{
+			text-align: center;
+			height: 173px;
+		}
+		.c3{
+			padding-left: 108px;
+		}
+		.c3 li{
+			background :url(e.png) no-repeat left;
+			padding-left: 13px;
+			font-size: 14px;
+			font-style: 微软雅黑;
+			color: #a1a1a1;
+		}
+		.c5{
+			text-align: center;
+			font-size: 16px;
+			font-style: 微软雅黑;
+			padding-bottom: 17px;
+		}
+		.c6{
+			height: 31px;
+			margin: 0 auto;
+		}
+		.c7{
+			padding-left: 108px;
+		}
+		.yuan2{
+			width: 300px;
+			height: 249px;
+			float: left;
+		}
+		.zhu{
+			width: 1560px;
+			height: 712px;
+			background :url(f.png) no-repeat center center;
+		}
+		.d1{
+			margin-top: 74px;
+			margin-left: 44px;
+			height: 300px;
+			width: 230px;
+			float: left;
+		}
+		.d2{
+			width: 1200px;
+			height: 712px;
+			margin: 0 auto;
+		}
+		.d7{
+			padding-top: 65px;
+			font-size: 34px;
+			font-style: 微软雅黑;
+			text-align: center;
+			color: #ffffff;
+		}
+		.d8{
+			font-style: Times New Roman;
+			font-size: 31.45px;
+			padding-top: 22px;
+			text-align: center;
+			color: #ffffff;
+		}
+		.d3{
+			width: 30px;
+			height: 300px;
+			margin-top: 74px;
+			text-align: center;
+			float: left;
+			line-height: 300px;
+			font-size: 44.98px;
+			color: #929292;
+		}
+		.d4{
+			width: 30px;
+			height: 300px;
+			margin-top: 74px;
+			text-align: center;
+			float: right;
+			line-height: 300px;
+			font-size: 44.98px;
+			color: #929292;
+		}
+		.d5{
+			width: 1200px;
+			height: 120px;
+			margin-top: 60px;
+			text-align: center;
+			float: left;
+		}
+		.d6{
+			width: 230px;
+			height: 50px;
+			font-size: 24px;
+			color: #ffffff;
+			line-height: 50px;
+			border-radius: 25px;
+			border: 1px solid #ffffff;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.zixun{
+			width: 1200px;
+			height: 908px;
+			margin: 0 auto;
+		}
+		.e1{
+			padding-top: 65px;
+			font-size: 34px;
+			font-style: 微软雅黑;
+			text-align: center;
+			color: #333333;
+		}
+		.e2{
+			font-style: Times New Roman;
+			font-size: 31.45px;
+			padding-top: 22px;
+			text-align: center;
+			color: #333333;
+		}
+		.e3{
+			width: 600px;
+			height: 719px;
+			float: left;
+		}
+		.e4{
+			margin-left: 74px;
+			float: left;
+			margin-bottom: 94px;
+		}
+		.e5{
+			margin-left: 74px;
+			float: left;
+			font-size: 14px;
+			color: #797979;
+		}
+		.e7{
+			padding-top: 26px;
+			padding-left: 28px;
+			font-size: 22px;
+			text-align: left;
+			color: #333333;
+		}
+		.e8{
+			padding-top: 21px;
+			padding-left: 28px;
+			font-size: 18px;
+			color: #5d5d5d;
+			text-align: left;
+		}
+		.e9{
+			padding-left: 28px;
+			padding-top: 36px;
+			font-size: 14px;
+			color: #a6a6a6;
+			text-align: left;
+			padding-bottom: 34px;
+		}
+		.e10{
+			border-radius: 25px;
+			border: 1px solid #7792ca;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 16px;
+			color: #1141a3;
+			width: 144px;
+			height: 48px;
+			line-height: 40px;
+		}
+		.e11{
+			padding-top: 114px;
+			margin-left: 74px;
+			float: left;
+			font-size: 14px;
+			color: #797979;
+		}
+		.o{
+			border-bottom: 1px dashed #dcdcdc;
+			border-height: 15px;
+			padding-top: 30px;
+		}
+		.e11 li{
+			padding-top: 30px;
+		}
+		.e5 li{
+			padding-top: 30px;
+		}
+		.zi{
+			width: 1560px;
+    		height: 103px;
+    		background-color: #eeeeef;
+		}
+		#f1{
+		 	margin-left: 228px;
+		 	float: left;
+		 	width: 250px;
+		 	height: 100px;
+		 	border-right: 1px rgb(224,224,224);
+		}
+		.f2{
+			margin-left: 45px;
+			float: left;
+			width: 250px;
+			height: 100px;
+			border-right: 1px rgb(224,224,224);
+		}
+		#f4{
+			float: left;
+			width: 250px;
+			height: 100px;
+		}
+		.f11{
+			float: left;
+			font-size: 12px;
+		}
+		#f1 img{
+			float: left;
+			margin-right: 20px;
+			margin-top: 30px;
+		}
+		.f2 img{
+			float: left;
+			margin-right: 20px;
+			margin-top: 30px;
+		}
+		#f4 img{
+			float: left;
+			padding-right: 20px;
+			margin-top: 30px;
+		}
+		.f5{
+			margin-top: 35px;
+			height: 48px;
+			border-right: 1px solid #8f8f8f;
+		}
+		.f6 {
+			margin-top: 35px;
+			height: 48px;
+		}
+		.f66{
+			margin-top: 27px;
+			margin-left:30px;
+	    	width:140px;
+	   		float:left;
+		}
+		.f111{
+			margin-top: 27px;
+			float:left;
+	    	height:70px;
+	    	width:50px;
+	    	margin-left:50px;
+		}
+		.za{
+			width: 1560px;
+			height: 260px;
+			background-color: rgb(50, 50, 50);
+		}
+		.zb{
+			width: 1560px;
+			height: 130px;
+			background-color: rgb(50, 50, 50);
+		} 
+    	.za li{
+    		color: white;
+    		margin-top: 20px;
+
+    	}
+    	.za h4{
+    		padding-top: 70px;
+    		color: white;
+    	}
+    	.za1{
+    		float: left;
+    		margin-left: 180px;
+    	}
+    	.za2{
+    		float: left;
+    		margin-left: 100px;
+    	}
+    	.za3{
+    		float: left;
+    		margin-left: 100px;
+    	}
+    	.za4{
+    		float: left;
+    		width: 230px;
+    		height: 153px;
+    		margin-top: 70px;
+    		margin-left: 100px;
+    		border-right: 1px solid #f1f1f1;
+    	}
+    	.f666{
+    		font-size: 12px;
+    	}
+    	.q1{
+    		font-size: 19px;
+    	}
+    	.za44 {
+    		width: 22px;
+    		height: 145px;
+    		float: right;
+    		margin-right: 32px;
+    		margin-top: 16px;
+    		color: white;
+    	}
+    	.z5{
+    		width: 250px;
+    		height: 150px;
+   		 	color: white;
+    		float: left;
+    		margin-left: 45px;
+    	}
+    	.z6 li{
+    		margin-top: 15px;
+    	}
+    	#z62{
+    		list-style: url('w_03.png') inside;
+    	}
+    	#z622{
+    		list-style: url('z_03.png') inside;
+    	}
+    	.zb li{
+    		font-size: 14px;
+			float: left;
+			padding: 0 10px;
+			line-height: 38px;
+			margin-top:38px;
+			margin-left:20px;
+			color: white;
+			text-align: center;
+  		}
+    	#zb11{
+        	font-size: 14px;
+			float: left;
+			padding: 0 10px;
+			line-height: 38px;
+			margin-top:38px;
+			padding-left: 280px;
+			color: #f1f1f1;
+			text-align: center;
+   		}
+   		.q2{
+   			color: #ffffff;
+   			font-size: 18px;
+   			margin-top: 72px;
+   		}
+    	.zb1::after{
+            content:".";
+            clear:both;
+            display:block;
+            height:0;
+            overflow:hidden;
+            visibility:hidden;
+    	}
+    	.zb p{
+    		text-align: center;
+    		margin-top: 18px;
+    	}
+    	.m{
+    		color: #f1f1f1;
+    	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="a">
+			<img src="a.png" alt="">
+		</div>
+		<ul class="a1">
+			<li>
+				<a href="">首页</a>
+			</li>
+			<li>
+				关于我们
+			</li>
+			<li>
+				中智服务
+			</li>
+			<li>
+				解决方案
+			</li>
+			<li>
+				最新资讯
+			</li>
+			<li class="last">
+				联系我们
+			</li>
+		</ul>
+	</div>
+	<div class="banner"></div>
+	<div class="serve">
+		<div class="fu">
+			<p class="b1">服务项目</p>
+			<p class="b2">SERVICE ITEMS</p>
+		</div>
+		<div class="yuan1">
+			<div class="c1">
+				<img src="d1.png" alt="">
+			</div>
+			<div class="c2">
+				<div class="c6">
+					<p class="c5">工商管理</p>
+				</div>
+				<ul class="c3">
+					<li>公司注册</li>
+					<li>公司注册地址</li>
+					<li>分公司地址</li>
+					<li>外资注册</li>
+					<li>股权变更</li>
+					<li>公司注销</li>
+				</ul>
+			</div>
+		</div>
+		<div class="yuan1">
+			<div class="c1">
+				<img src="d2.png" alt="">
+			</div>
+			<div class="c2">
+				<div class="c6">
+					<p class="c5">财务代理</p>
+				</div>
+				<ul class="c3">
+					<li>代理记账</li>
+					<li>税务筹划</li>
+					<li>审计服务</li>
+				</ul>
+			</div>
+		</div>
+		<div class="yuan1">
+			<div class="c1">
+				<img src="d3.png" alt="">
+			</div>
+			<div class="c2">
+				<div class="c6">
+					<p class="c5">资质服务</p>
+				</div>
+				<ul class="c3">
+					<li>各类许可证</li>
+					<li>资质审批</li>
+					<li>高新企业</li>
+					<li>商标专利</li>
+				</ul>
+			</div>
+		</div>
+		<div class="yuan1">
+			<div class="c1">
+				<img src="d4.png" alt="">
+			</div>
+			<div class="c2">
+				<div class="c6">
+					<p class="c5">特色服务</p>
+				</div>
+				<ul class="c7">
+					<li>
+						<img src="e.png" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="yuan2">
+			<div class="c1">
+				<img src="d5.png" alt="">
+			</div>
+			<div class="c2">
+				<div class="c6">
+					<p class="c5">公积金社保代理</p>
+				</div>
+			</div>
+		</div>
+		<div class="yuan2">
+			<div class="c1">
+				<img src="d6.png" alt="">
+			</div>
+			<div class="c2">
+				<div class="c6">
+					<p class="c5">办公室租赁</p>
+				</div>
+			</div>
+		</div>
+		<div class="yuan2">
+			<div class="c1">
+				<img src="d7.png" alt="">
+			</div>
+			<div class="c2">
+				<div class="c6">
+					<p class="c5">营业执照转让</p>
+				</div>
+			</div>
+		</div>
+		<div class="yuan2">
+			<div class="c1">
+				<img src="d8.png" alt="">
+			</div>
+			<div class="c2">
+				<div class="c6">
+					<p class="c5">法律服务</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="zhu">
+		<div class="d2">
+			<p class="d7">解决方案</p>
+			<p class="d8">SOLUTION</p>
+			<div class="d3">
+				<p><|</p>
+			</div>
+			<div class="d1">
+				<img src="g1.png" alt="">
+			</div>
+			<div class="d1">
+				<img src="g2.png" alt="">
+			</div>
+			<div class="d1">
+				<img src="g3.png" alt="">
+			</div>
+			<div class="d1">
+				<img src="g4.png" alt="">
+			</div>
+			<div class="d4">
+				<p>|></p>
+			</div>
+			<div class="d5">
+				<div class="d6">
+					<p>了解更多>></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="zixun">
+		<p class="e1">最新资讯</p>
+		<p class="e2">LATEST INFORMATION</p>
+		<div class="e3">
+			<div class="e4">
+				<img src="h.png" alt="">
+			</div>
+			<ul class="e5">
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+			</ul>
+		</div>
+		<div class="e3">
+			<div class="e6">
+				<h2 class="e7">交易明智&方便</h2>
+				<p class="e8">TRANSACTION WISE & CONVENIENT</p>
+				<p class="e9">要适应快速发展的差价合约市场，客户需要一个能让他们不用经纪商的介入就能分析实时报价、进行实时交易以及应用投资策略的平台。他们需要一个简单便捷的界面来管理他们的账户，并能轻松查看图标和报告。</p>
+				<p class="e10">了解详情</p>
+			</div>
+			<ul class="e11">
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li class="o">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+				<li>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</li>
+			</ul>
+		</div>
+	</div>
+	<div class="zi">
+		<div id="f1">
+			<img src="j1.png" alt="">
+			<div class="f5">
+				<p class="q1">资格认证</p>
+				<p class="f11">报名商100%实名认证</p>
+			</div>	
+		</div>
+		<div class="f2">
+			<img src="j2.png" alt="">
+			<div class="f5">
+				<p class="q1">支付安全</p>
+			    <p class="f11">明码标价及信息安全</p>
+			</div>
+		</div>
+		<div class="f2">
+			<img src="j3.png" alt="">
+			<div class="f5">
+				<p class="q1">保险赔付</p>
+			    <p class="f11">为您提供担保赔付</p>
+		    </div>
+		</div>
+			<div class="f111">
+				<img src="j4.png" alt="">
+			</div>
+		<div class="f66">
+		    <p class="q1">售后无忧</p>
+		    <p class="f666">服务出问题经理全程跟进</p>
+		</div>
+	</div>
+	<div class="za">
+    	<div class="za1">
+    		<p class="q2">中智信元</p>
+    		<ul>
+    			<a href=""><li>加入热门</li></a>
+    			<a href=""><li>联系热门</li></a>
+    			<a href=""><li>最新动态</li></a>
+    		</ul>
+    	</div>
+    	<div class="za2">
+    		<p class="q2">订单服务</p>
+    		<ul>
+    			<a href=""><li>支付方式</li></a>
+    			<a href=""><li>退款说明</li></a>
+    			<a href=""><li>购买流程</li></a>
+    		</ul>
+    	</div>
+    	<div class="za2">
+    		<p class="q2">售后服务</p>
+    		<ul>
+    			<a href=""><li>在线问答</li></a>
+    			<a href=""><li>服务中心</li></a>
+    			<a href=""><li>售后政策</li></a>
+    		</ul>
+    	</div>
+    	<div class="za3">
+    		<p class="q2">常见问题</p>
+    		<ul>
+    			<a href=""><li>新手帮助</li></a>
+    			<a href=""><li>支付帮助</li></a>
+    			<a href=""><li>开具发票</li></a>
+    		</ul>
+    	</div>
+    	<div class="za4">
+    		<img src="k.png" alt="">
+    		<div class="za44">
+    			<p>微</p>
+	    		<p>信</p>
+	    		<p>扫</p>
+	    		<p>一</p>
+	    		<p>扫</p>
+    		</div>
+    	</div>
+    	<div class="z5">
+    		<h4>咨询热线 ：400-000-000</h4>
+    		<div class="z6">
+    			<ul>
+    			<li id="z622">1234567888@qq.com</li>
+    		    <li id="z62">某某企业网站官方微信</li>
+    		</ul>
+    		</div>
+    	</div>
+    </div>
+    <hr/>
+    <div class="zb">
+    	<ul class="zb1">
+    		<li id="zb11">首页</li>
+    		<li>工商代理</li>
+    		<li>财务代记账</li>
+    		<li>股权交易与变更</li>
+    		<li>企业贷款</li>
+    		<li>办公室租赁</li>
+    		<li>社保公积金代理</li>
+    		<li>法律服务</li>
+    	</ul>
+    	<p class="m">©2017-2018中智信元版权有限公司版权所有</p>
+    </div>
+</body>
+</html>
